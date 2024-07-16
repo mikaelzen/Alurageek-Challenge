@@ -1,10 +1,10 @@
 :root {
-  --col-purple: #5d04d9;
+  --col-purple: #642ab6;
   --col-dark-blue: #03318c;
   --col-magenta: #8C0375;
   --col-white: #ffffff;
   --col-black: #000000;
-  --background: linear-gradient(0deg, rgba(171,251,252,1) 0%, rgba(34,193,195,1) 27%, rgba(37,188,193,1) 29%, rgba(140,3,117,1) 99%);
+  
 }
 
 * {
@@ -60,18 +60,20 @@ main {
 /* add product */
 .add-product__section {
   width: 80%;
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .add-product__title {
   font-size: 2.8rem;
+  color:#5d04d9;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+
 }
 
 .form__container {
@@ -143,20 +145,23 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
-  margin-bottom: 60px;
+  gap: 30px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  background-color:#27498d;
 }
 
 .list-products__title {
   margin-top: 40px;
   font-size: 2.8rem;
+  color:var(--col-white);
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
 
 .products__container {
-  width: 95%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -165,6 +170,7 @@ main {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 
 .product__card {
   height: 258px;
@@ -258,7 +264,7 @@ footer {
   }
 
   .add-product__section {
-    margin-top: 30px;
+    margin-top: 40px;
     width: 30%;
   }
 
@@ -268,7 +274,8 @@ footer {
 
   .list-products__section {
     width: 60%;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .list-products__title {
@@ -279,12 +286,12 @@ footer {
     overflow-x: hidden;
     overflow-y: auto;
     gap: 30px 16px;
-    max-height: 550px;
+    max-height: 650px;
     min-height: min-content;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     scroll-behavior: smooth;
     scrollbar-color: var(--col-purple) var(--col-white);
-    margin-bottom: 200px;
+    margin-bottom: 20px;
   }
 
 /*
@@ -293,4 +300,5 @@ footer {
     bottom: 0;
   }
     */
+    
 }
