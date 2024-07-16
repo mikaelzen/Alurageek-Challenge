@@ -2,7 +2,7 @@
   --col-light-blue: #5d04d9;
   --col-dark-blue: #03318c;
   --col-purple: #8C0375;
-  --col-whihe: #ffffff;
+  --col-white: #ffffff;
   --col-black: #000000;
 }
 
@@ -67,7 +67,7 @@ main {
 }
 
 .add-product__title {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -124,15 +124,15 @@ main {
 
 .button__send {
   background-color: var(--col-dark-blue);
-  color: var(--col-whihe);
+  color: var(--col-white);
 }
 
 .button__send:disabled {
-  background-color: gray;
+  background-color: var(--col-dark-blue);
 }
 
 .button__clear {
-  background-color: var(--col-whihe);
+  background-color: var(--col-white);
   color: var(--col-dark-blue);
 }
 
@@ -148,7 +148,7 @@ main {
 
 .list-products__title {
   margin-top: 40px;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -160,6 +160,9 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 40px 20px;
+  background-color: #c6c0fc;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .product__card {
@@ -191,7 +194,7 @@ main {
 
 .card-container--info > p {
   font-size: 1.5rem;
-  color: var(--col-whihe);
+  color: var(--col-white);
 }
 
 .card-container--value {
@@ -204,7 +207,7 @@ main {
 .card-container--value > p {
   font-size: 1.6rem;
   font-weight: bold;
-  color: var(--col-whihe);
+  color: var(--col-white);
 }
 
 .trash_icon:hover {
@@ -225,13 +228,13 @@ footer {
 }
 
 .dev__info {
-  color: var(--col-whihe);
+  color: var(--col-white);
   font-size: 1.6rem;
   font-weight: 600;
 }
 
 .company__info {
-  color: var(--col-whihe);
+  color: var(--col-white);
   font-size: 1.4rem;
 }
 
@@ -280,7 +283,7 @@ footer {
     min-height: min-content;
     padding-bottom: 20px;
     scroll-behavior: smooth;
-    scrollbar-color: var(--col-light-blue) var(--col-whihe);
+    scrollbar-color: var(--col-light-blue) var(--col-white);
     margin-bottom: 200px;
   }
 
