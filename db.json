@@ -1,28 +1,58 @@
 {
   "items": [
     {
-      "id": "15615b1c-1b71-44dd-b736-f479c5b77f16",
-      "name": "Pikachu",
-      "price": "60",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKWuyVLfdIQSZRv5odzlUNxdpytGOvuUgdIJwouA7l-Q&s"
-    },
-    {
-      "id": "0abb2596-a000-4424-9dc1-68074c128dc4",
-      "name": "poligon",
-      "price": "70",
-      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/137.png"
-    },
-    {
-      "id": "6e90326d-e4da-4c3f-9126-dd22a5686403",
-      "name": "charizard",
-      "price": "9000",
-      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006_f2.png"
-    },
-    {
       "id": "e90ef05e-c711-4445-8a26-b901b6e15a38",
-      "name": "lugia",
-      "price": "87",
+      "name": "Lugia",
+      "price": "500",
       "image_url": "https://static.wikia.nocookie.net/espokemon/images/a/a7/Lugia.png"
+    },
+    {
+      "id": "a9215389-bcda-478b-9da2-de66a3a01ad8",
+      "name": "Squirtle",
+      "price": "50",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png"
+    },
+    {
+      "id": "aeff17e2-01bf-437c-9cf2-7fc64580d989",
+      "name": "Espeon",
+      "price": "9999",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/196.png"
+    },
+    {
+      "id": "fa2fa788-ac6d-4856-b4c0-56801d9b3ebc",
+      "name": "Vaporeon",
+      "price": "9001",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/134.png"
+    },
+    {
+      "id": "612017bb-8cec-4016-a58d-e4362fbf754e",
+      "name": "Jolteon",
+      "price": "9001",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/135.png"
+    },
+    {
+      "id": "7b2b0265-f96b-411a-8294-fa87afba8c38",
+      "name": "Glaceon",
+      "price": "9001",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/471.png"
+    },
+    {
+      "id": "fc7e06af-ef52-413f-839f-244d49ea626e",
+      "name": "Mewtwo",
+      "price": "1500",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150.png"
+    },
+    {
+      "id": "07eb0409-f9bf-4318-81d0-848df4366bc4",
+      "name": "Growlithe",
+      "price": "50",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/058.png"
+    },
+    {
+      "id": "fc65c21b-8ecf-479a-9b61-806286028c27",
+      "name": "Jigglypuff",
+      "price": "50",
+      "image_url": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/039.png"
     }
   ]
 }
